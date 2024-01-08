@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(86, 86, 81);
+  background-image: url(https://assets.aboutamazon.com/dims4/default/24458d1/2147483647/strip/false/crop/2000x1126+0+0/resize/1486x837!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F36%2Fd1%2F7ae20cc64bb08441fbf28fe0edc0%2Flotr-hero-2000x1126.jpg);
+  background-attachment: fixed;
+}
+
+main {
+  max-height: 1000px;
+  max-width: 900px;
+
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: rgb(131, 128, 128);
+  text-align: center;
+  /* background-image: url(https://i.ebayimg.com/images/g/LSwAAOSwlYdhQbhp/s-l1200.webp);
+  background-repeat: initial; */
+  opacity: 0.8;
+}
+
+.section1 {
+  /* height: 230px;
+  width: 80vw; */
+  /* border: 1px solid black; */
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 5px;
+}
+
+.box {
+  height: 100px;
+  width: 400px;
+  margin: 5px;
+}
+
+.box.one {
+  display: flex;
+  float: left;
+}
+
+#name {
+  padding-left: 50px;
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.section1 .box.one p {
+  padding-left: 50px;
+  text-align: center;
+}
+
+.box.three {
+  flex-grow: 2;
+}
+
+.section2 {
+  height: 80vh;
+  width: 470px;
+
+  margin: auto;
+  text-align: center;
+}
+
+.section2 p {
+  margin: 30px;
+}
+
+.section3 {
+  height: 80vh;
+  width: 370px;
+
+  margin: auto;
+}
+
+.section3 p {
+  padding: 3px;
+}
+
+.section p {
+  margin: 3px;
+  align-items: center;
+  padding: 10px;
+}
